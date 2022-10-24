@@ -8,3 +8,14 @@ F:\原始檔程式\CsCheck\CsCheck\obj\Release\CsCheck.exe
 F:\原始檔程式\CsCheck\CsCheck\obj\Release\CsCheck.Form2.resources
 F:\原始檔程式\CsCheck\CsCheck\bin\Release\CsCheck.exe.config
 F:\原始檔程式\CsCheck\CsCheck\bin\Release\PEAT7403B01.dll
+C:\Users\yang900412\Documents\CsCheck\CsCheck\bin\Release\CsHis.dll
+C:\Users\yang900412\Documents\CsCheck\CsCheck\bin\Release\PEAT7403B01.dll
+C:\Users\yang900412\Documents\CsCheck\CsCheck\bin\Release\CsCheck.exe.config
+C:\Users\yang900412\Documents\CsCheck\CsCheck\bin\Release\CsCheck.exe
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\Release\CsCheck.csproj.AssemblyReference.cache
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\Release\CsCheck.Form1.resources
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\Release\CsCheck.Form2.resources
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\Release\CsCheck.Properties.Resources.resources
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\Release\CsCheck.csproj.GenerateResource.cache
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\Release\CsCheck.csproj.CoreCompileInputs.cache
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\Release\CsCheck.exe

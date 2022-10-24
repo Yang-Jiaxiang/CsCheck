@@ -31,26 +31,26 @@ namespace CsCheck
 
 
         //功能設定
-        [DllImport("CsHis.dll", EntryPoint = "csOpenCom")] //開啟讀卡機
+        [DllImport("CSHIS50.dll", EntryPoint = "csOpenCom")] //開啟讀卡機
         private static extern int csOpenCom(int pComNum);
-        [DllImport("CsHis.dll", EntryPoint = "csCloseCom")]//關閉讀卡機
+        [DllImport("CSHIS50.dll", EntryPoint = "csCloseCom")]//關閉讀卡機
         private static extern int csCloseCom();
-        [DllImport("CsHis.dll", EntryPoint = "csVerifySAMDC")]//與健保局連線
+        [DllImport("CSHIS50.dll", EntryPoint = "csVerifySAMDC")]//與健保局連線
         private static extern int csVerifySAMDC();
-        [DllImport("CsHis.dll", EntryPoint = "hpcVerifyHPCPIN")]//檢查醫事人員卡之PIN值
+        [DllImport("CSHIS50.dll", EntryPoint = "hpcVerifyHPCPIN")]//檢查醫事人員卡之PIN值
         private static extern int hpcVerifyHPCPIN();
-        [DllImport("CsHis.dll", EntryPoint = "hisGetBasicData")]//讀取個人資料
+        [DllImport("CSHIS50.dll", EntryPoint = "hisGetBasicData")]//讀取個人資料
         private static extern int hisGetBasicData(byte[] pBuffer, ref int iBufferLen);
         //ERRORCODE hisReadPrescription(char *pOutpatientPrescription， int *iBufferLenOutpatient，char *pLongTermPrescription， int *iBufferLenLongTerm，char *pImportantTreatmentCode， int *iBufferLenImportant，char *pIrritationDrug， int *iBufferLenIrritation);
-        [DllImport("CsHis.dll", EntryPoint = "hisReadPrescription")]//讀取處方箋作業
+        [DllImport("CSHIS50.dll", EntryPoint = "hisReadPrescription")]//讀取處方箋作業
         private static extern int hisReadPrescription(byte[] pOutpatientPrescription, ref int iBufferLenOutpatient, byte[] pLongTermPrescription, ref int iBufferLenLongTerm, byte[] pImportantTreatmentCode, ref int iBufferLenImportant, byte[] pIrritationDrug, ref int iBufferLenIrritation);
-        [DllImport("CsHis.dll")]//取得控制軟體版本
+        [DllImport("CSHIS50.dll")]//取得控制軟體版本
         private static extern int csGetVersionEx(byte[] pPath);
-        [DllImport("CsHis.dll")]//讀取卡片狀態
+        [DllImport("CSHIS50.dll")]//讀取卡片狀態
         private static extern int hisGetCardStatus(int CardType);
-        [DllImport("CsHis.dll")]//讀取就醫資料不需HPC卡的部分
+        [DllImport("CSHIS50.dll")]//讀取就醫資料不需HPC卡的部分
         private static extern int hisGetTreatmentNoNeedHPC(byte[] pBuffer, ref int iBufferLen);
-        [DllImport("CsHis.dll")]//讀取就醫資料需HPC卡的部分
+        [DllImport("CSHIS50.dll")]//讀取就醫資料需HPC卡的部分
         private static extern int hisGetTreatmentNeedHPC(byte[] pBuffer, ref int iBufferLen);
         //保險對象特定醫療資訊查詢作業
         [DllImport("PEAT7403B01.dll")]
@@ -59,7 +59,7 @@ namespace CsCheck
         [DllImport("PEAT7403B01.dll")]
         private static extern void PEA_GetMsg(byte[] sBuf,ref int nSize);
         //讀取醫事人員卡身分證
-        [DllImport("CsHis.dll")]
+        [DllImport("CSHIS50.dll")]
         private static extern int hpcGetHPCSSN(byte[] SSN, ref int Len_SSN);
 
 
