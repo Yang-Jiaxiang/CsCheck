@@ -1,0 +1,11 @@
+C:\Users\yang900412\Documents\CsCheck\CsCheck\bin\x86\Release\CsHis.dll
+C:\Users\yang900412\Documents\CsCheck\CsCheck\bin\x86\Release\PEAT7403B01.dll
+C:\Users\yang900412\Documents\CsCheck\CsCheck\bin\x86\Release\CsCheck.exe.config
+C:\Users\yang900412\Documents\CsCheck\CsCheck\bin\x86\Release\CsCheck.exe
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\x86\Release\CsCheck.csproj.AssemblyReference.cache
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\x86\Release\CsCheck.Form1.resources
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\x86\Release\CsCheck.Form2.resources
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\x86\Release\CsCheck.Properties.Resources.resources
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\x86\Release\CsCheck.csproj.GenerateResource.cache
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\x86\Release\CsCheck.csproj.CoreCompileInputs.cache
+C:\Users\yang900412\Documents\CsCheck\CsCheck\obj\x86\Release\CsCheck.exe
